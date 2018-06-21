@@ -55,8 +55,7 @@ Page 123456702 "Seminar List"
                 action("Co&mments")
                 {
                     RunObject=page "Seminar Comment Sheet";
-                    RunPageLink = "Table
-                    Name"=const(Seminar),"No."=field("No.");
+                    RunPageLink = "Table Name"=const(Seminar),"No."=field("No.");
                     Image = Comment;
                 }
             }
