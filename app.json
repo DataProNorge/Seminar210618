@@ -1,0 +1,26 @@
+{
+  "id": "91548bff-c700-43f3-879c-134039c15559",
+  "name": "SeminarModule",
+  "publisher": "Default publisher",
+  "brief": "",
+  "description": "",
+  "version": "1.0.0.0",
+  "compatibilityId": "1.0.0.0",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "capabilities": [],
+  "dependencies": [],
+  "screenshots": [],
+  "features": "TranslationFile",
+  "showMyCode": true,
+  "target": "Internal",
+  "platform": "11.0.0.0",
+  "application": "11.0.0.0",
+  "idRange": {
+    "from": 123456700,
+    "to": 123456799
+  }
+}
