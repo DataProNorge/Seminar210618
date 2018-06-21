@@ -77,8 +77,8 @@ group("&Seminar")
 action("Co&mments")
 
 {
-    //RunObject=Page "Seminar Comment Sheet";
-    //RunPageLink = "Table Name"=const(Seminar),"No."=field("No.");
+    RunObject=Page "Seminar Comment Sheet";
+    RunPageLink = "Table Name"=const(Seminar),"No."=field("No.");
     Image = Comment;
     Promoted = true;
     PromotedIsBig = true;
