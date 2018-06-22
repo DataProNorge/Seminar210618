@@ -11,6 +11,7 @@ page 123456701 "Seminar Card"
             {
                 field("No."; "No.")
                 {
+                    Assistedit = True;
                     trigger OnAssistEdit();
                     begin
                         if AssistEdit then
@@ -68,24 +69,24 @@ page 123456701 "Seminar Card"
             }
         }
     }
-   actions
-{
-area(Navigation)
-{
-group("&Seminar")
-{
-action("Co&mments")
+    actions
+    {
+        area(Navigation)
+        {
+            group("&Seminar")
+            {
+                action("Co&mments")
 
-{
-    RunObject=Page "Seminar Comment Sheet";
-    RunPageLink = "Table Name"=const(Seminar),"No."=field("No.");
-    Image = Comment;
-    Promoted = true;
-    PromotedIsBig = true;
-    PromotedOnly = true;
+                {
+                    RunObject = Page "Seminar Comment Sheet";
+                    RunPageLink = "Table Name" = const (Seminar), "No." = field ("No.");
+                    Image = Comment;
+                    Promoted = true;
+                    PromotedIsBig = true;
+                    PromotedOnly = true;
 
-}
-}
-}
-}
+                }
+            }
+        }
+    }
 }
