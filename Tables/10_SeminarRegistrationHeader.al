@@ -1,4 +1,4 @@
-table 123456710 "Seminar Registration Header"
+Table 123456710 "Seminar Registration Header"
 {
     // CSD1.00 - 2018-01-01 - D. E. Veloper
     //   Chapter 6 - Lab 1-3 & Lab 1-4
@@ -99,7 +99,7 @@ table 123456710 "Seminar Registration Header"
         }
         Field(9; "Maximum Participants"; Integer)
         {
-            Caption = 'CSD Maximum Participants';
+            Caption = 'Maximum Participants';
         }
         Field(10; "Minimum Participants"; Integer)
         {
