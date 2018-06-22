@@ -32,7 +32,7 @@ codeunit 123456700 "Seminar-Post"
             end;
             SeminarRegLine.LockTable;
             SourceCodeSetup.Get;
-            // SourceCode := SourceCodeSetup."S";
+            SourceCode := sourcecodesetup."CSD seminar";
             PstdSeminarRegHeader.Init; 
             PstdSeminarRegHeader.TransferFields(SeminarRegHeader); 
             PstdSeminarRegHeader."No." := "Posting No."; 
